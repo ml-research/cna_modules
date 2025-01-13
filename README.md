@@ -5,6 +5,9 @@ Official code for the paper *Graph Neural Networks Need Cluster-Normalize-Activa
 
 [![NeurIPS 2024 Poster](https://img.shields.io/badge/NeurIPS%202024-Poster-blue)](https://neurips.cc/virtual/2024/poster/94196)
 
+[![arXiv](https://img.shields.io/badge/arXiv-2412.04064-b31b1b)](https://arxiv.org/abs/2412.04064)
+
+
 ![alt text](images/cna_robots.png "CNA-Modules")
 
 ## Installation
