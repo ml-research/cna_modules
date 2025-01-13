@@ -4,9 +4,7 @@
 Official code for the paper *Graph Neural Networks Need Cluster-Normalize-Activate Modules* accepted at NeurIPS 2024.
 
 [![NeurIPS 2024 Poster](https://img.shields.io/badge/NeurIPS%202024-Poster-blue)](https://neurips.cc/virtual/2024/poster/94196)
-
 [![arXiv](https://img.shields.io/badge/arXiv-2412.04064-b31b1b)](https://arxiv.org/abs/2412.04064)
-
 
 ![alt text](images/cna_robots.png "CNA-Modules")
 
@@ -16,17 +14,17 @@ We provide a `Dockerfile` for ease of reproducibility. See the Docker Docs on [H
 
 ### Via installation script
 Navigate into the directory `cna_modules`.
-Then execute following command to make the script executable:
+Then execute the following command to make the script executable:
 ```bash
 chmod +x install_script.sh
 ```
 
-After that execute the script via:
+After that, execute the script via:
 ```bash
 bash -i install_script.sh
 ```
 
-When the script executed successfully, activate the conda environment via:
+When the script is executed successfully, activate the conda environment via:
 ```bash
 conda activate cluster-normalize-activate
 ```
@@ -62,8 +60,8 @@ To use the project, navigate to the `~/cna_modules/src` directory and run the ap
 python scripts/execute_experiments.py
 ```
 
-To adapt the parameters open the file `model_params.py` in the `utils` directory, 
-and you can here see the possible options to chose or adapt:
+To adapt the parameters, open the file `model_params.py` in the `utils` directory, 
+and you can here see the possible options to choose or adapt:
 
 ```
 experiment_number = ...  # number of experiment
@@ -91,7 +89,7 @@ task_type = ...  # here to set the task type
 ```
 
 But you can also use the predefined configurations as listed in the directory `utlis/configs`. 
-For executing an experiment through this way you can run:
+To execute an experiment this way you can run:
 ```
 python scripts/execute_experiments.py --config [name of configuration] --num_seeds [num of seeds]
 ```
@@ -142,11 +140,9 @@ squirrel_2_node_regression_transformerconv
 ``` 
 We ask you kindly to have a look at `src/utils/configs/` to explore other options.
 
-
-
 ## Contributors
 
-- [Arseny Skryagin](https://github.com/askrix/), [Felix Divo](https://felix.divo.link/), [Amin Ali](https://github.com/MAminAli) 
+- [Arseny Skryagin](https://github.com/askrix/), [Felix Divo](https://felix.divo.link/), [Amin Ali](https://github.com/MAminAli)
 
 ## How to cite
 ```latex
@@ -159,8 +155,6 @@ We ask you kindly to have a look at `src/utils/configs/` to explore other option
     year = {2024}
 }
 ```
-
-
 
 ## License
 
